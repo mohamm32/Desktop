@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    background: rgb(248, 81, 81);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    color: white;
+}
+
+.timer-container {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:white;
+}
+
+.control-container button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s;
+    font-weight: 400;
+}
+
+#start-btn,#pause-btn,#reset-btn,#work-btn,#short-btn,#long-btn  {
+    background: rgb(248, 141, 141);
+    color: white;
+}
+
+.control-container button:hover {
+    opacity: 0.8;
+}
+
+.settings-container {
+    margin-top: 20px;
+}
+
+.settings-container label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.settings-container input {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+
+}
+.mode-container{
+    display: flex;
+    justify-content: center;
+
+}
+.mode-container button:hover {
+    opacity: 0.8;
+}
+.mode-container button{
+    margin: 5px;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s;
+    font-weight: 400;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.col-2{
+    border: solid white 4px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+
+}
+#add-btn{
+    background: rgb(248, 141, 141);
+    color: white;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s;
+    font-weight: 400;
+    width: 100%;
+
+}
+.task-inputs{
+    border-radius: 5px;
+    border: none;
+    margin:5px;
+    font-size: 20px;
+}
+progress {
+    width: 80%;
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
