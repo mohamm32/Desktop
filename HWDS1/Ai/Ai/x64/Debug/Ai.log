@@ -1,0 +1,4 @@
+﻿  Ai.cpp
+C:\Users\zain\OneDrive\Desktop\HWDS1\Ai\Ai\Ai.cpp(32,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zain\OneDrive\Desktop\HWDS1\Ai\Ai\Ai.cpp(32,50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Ai.vcxproj -> C:\Users\zain\OneDrive\Desktop\HWDS1\Ai\x64\Debug\Ai.exe

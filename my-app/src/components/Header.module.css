@@ -1,0 +1,155 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #0066cc;
+   
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0066cc;
+    background-image: url('../images/BannerBackground.png');
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .navList li a {
+    text-decoration: none;
+    color: #01080f;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .navList li a:hover {
+    text-decoration: underline;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .bellIcon {
+    font-size: 1.2rem;
+    color: #0066cc;
+  }
+  
+  .profilePic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #0066cc;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 1rem;
+    }
+  
+    .logo h1 {
+      font-size: 1.2rem;
+    }
+  
+    .rightSection {
+      position: relative;
+    }
+  
+    .nav {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      background-color: #ffffff;
+      border: 1px solid #0066cc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navOpen {
+      display: block;
+    }
+  
+    .navList {
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 1rem;
+      text-align: left;
+    }
+  
+    .navList li a {
+      font-size: 0.9rem;
+    }
+  
+    .menuToggle {
+      display: block;
+    }
+  
+    .icons {
+      gap: 0.5rem;
+    }
+  
+    .bellIcon {
+      font-size: 1rem;
+    }
+  
+    .profilePic {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      padding: 0.8rem;
+    }
+  
+    .logo h1 {
+      font-size: 1rem;
+    }
+  
+    .nav {
+      width: 150px;
+    }
+  
+    .navList li a {
+      font-size: 0.8rem;
+    }
+  
+    .bellIcon {
+      font-size: 0.9rem;
+    }
+  
+    .profilePic {
+      width: 20px;
+      height: 20px;
+    }
+  }

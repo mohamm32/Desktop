@@ -1,0 +1,79 @@
+.recent-searches-container {
+    width: 100%;
+    background-color: #f4f5fd;
+    padding: 24px 0;
+  }
+  
+  .recent-searches-content {
+    max-width: 1200px;
+    margin: 0 240px;
+    padding: 0 24px;
+  }
+  
+  .recent-searches-title {
+    color: #000;
+    font-size: 34px;
+    margin-bottom: 16px;
+    padding: 0px 10px 0px 500px;
+  }
+  
+  .search-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-box {
+    background: #fff;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .top-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .bottom-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-box .from,
+  .search-box .to {
+    color: #1e40af;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .search-box .date {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .search-box .date span {
+    font-weight: normal;
+  }
+  
+  .flight-path {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #6b7280;
+  }
+  
+  .flight-path span {
+    font-size: 18px;
+  }
+

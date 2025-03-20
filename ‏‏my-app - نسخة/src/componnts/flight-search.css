@@ -1,0 +1,93 @@
+
+.flight-search-container {
+    width: 100vw; 
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    background: url("C:\Users\PC\my-app\src\assets\Subscribe section background.png") no-repeat center center/cover;
+  }
+  
+  .flight-search-container h1 {
+    padding-top:50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    max-width: 800px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+  }
+
+  .flight-search-container p {
+    padding-top:30px;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    max-width: 600px;
+    color: #000000;
+  }
+  
+
+.flight-search-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 900px; 
+    width: 90%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .radio-group label {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .input-group input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    background: #67c8ee;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .search-button:hover {
+    background: #e65c00;
+  }
+  

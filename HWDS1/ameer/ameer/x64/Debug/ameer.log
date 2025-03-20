@@ -1,0 +1,4 @@
+﻿  ameer.cpp
+C:\Users\zain\OneDrive\Desktop\HWDS1\ameer\ameer\ameer.cpp(31,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zain\OneDrive\Desktop\HWDS1\ameer\ameer\ameer.cpp(31,50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ameer.vcxproj -> C:\Users\zain\OneDrive\Desktop\HWDS1\ameer\x64\Debug\ameer.exe
