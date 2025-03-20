@@ -43,7 +43,7 @@
     color: #e6f0ff;
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .footer {
       grid-template-columns: repeat(2, 1fr); 

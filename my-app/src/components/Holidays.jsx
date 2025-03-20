@@ -1,14 +1,21 @@
+
 import React from 'react';
 import styles from './Holidays.module.css';
 
-const holidays = [
-  { name: 'Bali', image: '/images/b.png', price: '$899' }, 
-  { name: 'Switzerland', image: '/images/SwitzerlandImage.png', price: '$900' },
-  { name: 'Boracay', image: '/images/BoracayImage.png', price: '$569' },
-  { name: 'Palawan', image: '/images/PalawanImage.png', price: '$799' },
-];
+
+import baliImage from '../images/baliImage.png';
+import ssssssss from '../images/ssssssss.png';
+import boracayImage from '../images/boracayImage.png';
+import aaaaaa from '../images/aaaaaa.png';
 
 const Holidays = () => {
+  const holidays = [
+    { name: 'Bali', image: baliImage, price: '$899' }, 
+    { name: 'Switzerland', image: ssssssss, price: '$900' },
+    { name: 'Boracay', image: boracayImage, price: '$569' },
+    { name: 'Palawan', image: aaaaaa, price: '$799' },
+  ];
+
   return (
     <div className={styles.holidays}>
       <div className={styles.header}>
@@ -18,9 +25,9 @@ const Holidays = () => {
       <div className={styles.grid}>
         {holidays.map((holiday, index) => (
           <div key={index} className={styles.card}>
-            <img src={holiday.image} alt={holiday.name} />
+            <img src={holiday.image} alt={holiday.name} className={styles.image} />
             <h4>{holiday.name}</h4>
-            <p>{holiday.price}</p>
+            <p className={styles.price}>{holiday.price}</p>
             <a href="#" className={styles.moreDetails}>More Details</a>
           </div>
         ))}
